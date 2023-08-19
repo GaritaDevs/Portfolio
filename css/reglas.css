@@ -1,0 +1,146 @@
+@media (max-width: 575px) {
+    .logoPagina{
+        display: none;
+    }
+
+    .contenidoHome{
+        top: 30%;
+        left: 7%;
+        position: relative;
+        max-width: 450px;
+        z-index: 10;
+    }
+
+    .hi{
+        font-size: 2em;
+        color: #333;
+        font-weight: 200;
+        transition: 0.5s;
+    }
+    
+    .yoSoy{
+        font-size: 3.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    
+    #spanHome{
+        color: orange
+    }
+
+    .animation{
+        position: relative;
+        top: 30%;
+        left: 30%;
+        width: 300px;
+        height: 300px;
+    }
+    
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    .tituloAbout{
+            font-size: 3.5em;
+    }
+
+    .tituloSkills{
+        font-size: 3.5em;
+    }
+
+    .tituloPortfolio{
+        font-size: 3.5em;
+    }
+
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .logoPagina{
+        display: none;
+    }
+
+    .yoSoy{
+        font-size: 3.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    .animation{
+        position: relative;
+        top: 23%;
+        left: 85%;
+        width: 290px;
+        height: 290px;
+    }
+    
+    
+
+ 
+}
+    
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logoPagina{
+        display: none;
+    }
+
+    .yoSoy{
+        font-size: 4.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    .animation{
+        position: relative;
+        top: 10%;
+        left: 70%;
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+
+  
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .animation{
+        position: relative;
+        top: 25%;
+        left: 7%;
+        width: 330px;
+        height: 330px;
+    }
+    
+}
+@media (min-width: 1200px) {
+}
