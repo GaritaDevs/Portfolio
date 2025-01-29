@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Esteban G</title>
+
+    <link rel="icon" href="./img/logoNaranja231.png" class="iconFavicon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/6df3345e67.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="./css/index.css" rel="stylesheet">
+    <link href="./css/reglas.css" rel="stylesheet">
+</head>
+
+<body>
+
+ <!-- Comienza la pagina WEB -->
+ <!-- NAV -->
+
+ <nav class="navbar navbar-expand-lg fixed-top fondoNav nv">
+    <div class="container">
+        <a class="navbar-brand logo" href="index.html"><img src="./img/logoNaranja231.png" alt="" class="logoPagina"></a>
+        </a>
+
+        <!-- MENU HAMBURGUESA BOOSTRAP -->
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse barNavContenedor" id="navbarCollapse">
+            
+            <ul class="navbar-nav mx-auto mb-2 mb-md-0 text-center">
+                <li class="nav-item">
+                    <a data-scroll class="nav-link optmenu navText uno" aria-current="page" href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link optmenu navText dos" aria-current="page"
+                        href="#about">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a data-scroll class="nav-link navText tres" aria-current="page" href="#skills">Habilidades</a>
+                </li>
+            
+                
+                <li class="nav-item">
+                    <a data-scroll class="nav-link navText cuatro" aria-current="page" href="#portfolio">Portafolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a data-scroll class="nav-link navText cinco" aria-current="page" href="#contact">Contacto</a>
+                </li>
+            </ul>
+            <div class="langWrap d-flex">
+            
+                <input type="checkbox" class="check" checked>
+                <lo class="nav-item-item">
+                    <!-- atributo language -->
+                    <a href="#" language='spanish' class="active"><img class="img-fluid bandera spanish"
+                        src="./img/es.webp" alt="Español"></a>                
+                </lo>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <!-----------------------------------------BANNER--------------------------------------->
+
+    <section id="home" class="banner">
+        <div class="container row" id="homeDos">
+            <div class="contenidoHome col-lg-12">
+                <h3 class="hi seis">Hola_</h3>
+                <h1 class="yoSoy">Soy <span id="spanHome"></span></h1>
+                <p class="textHome ocho">Bienvenido a mi portafolio, dos años de experiencia como desarrollador web</p>
+            </div>
+            <div class="col-lg-3">
+                <img src="./img/animation.webp" class="animation" alt="animacion personal">
+            </div>
+            <div class="dayNight">
+                <i class="fa fa-sun-o" aria-hidden="true"></i>
+                <i class="fa fa-moon-o" aria-hidden="true"></i>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------------FLECHA ARRIBA-------------------------------------->
+
+
+    <a href="#home">
+        <img src="./img/flechaArriba.jpg" alt="fllecha arriba" class="flechaArriba" >
+    </a>
+
+    <!----------------------------------------ABOUT----------------------------------------->
+
+
+    <section id="about" class="about">
+        <div class="containerAbout">
+            <div class="contenedor">
+                <h3 class="tituloAbout nueve">Sobre<span class="spanAbout diez"> Mi</span></h3>
+            </div>
+            <div class="row txtRow">
+
+                <div class="txtAbout col-lg-6">
+                    <p class="once">Hola, mi nombre es Esteban y soy un Desarrollador Web Full-Stack Junior.
+                        He estado estudiando Diseño Web durante los últimos dos años en la Universidad CENFOTEC y en Madison College en Wisconsin, 
+                        donde he adquirido experiencia práctica y conocimientos fundamentales en desarrollo web.
+                        <br><br>Tengo algunos proyectos personales que hice por mi cuenta y estare compartiendo a continuación, <br><br>
+                        <span class="spanAbout doce">Actualmente estoy ampliando mis conocimientos y estoy entusiasmado por seguir creciendo en este campo. 
+                            Estoy comprometido a dar el 110% en todo lo que hago.</span>
+                        <br></br>¡Me encantaría tener la oportunidad de trabajar juntos y contribuir a su equipo!</p>
+                        <div class="botonCV col-lg-6">
+                            <button class="btn btn-warning"><a href="./pdfs/CV PROGRA ES.pdf" target="_blank" class="cv" >Revisa mi CV</a></button> 
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------SKILLS------------------------------------->
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h3 class="tituloSkills container trece">Mis<span class="spanSkills catorce"> Habilidades</span></h3>
+        </div>
+        <div class="container">
+            <div class="row cajaSkills">
+               
+
+
+                <div class="contenedorSkills col-lg-12">
+                    <div>
+                        <h4 class="tituloSkill skillsOne quince">Lenguajes de programación</h4>
+                        <img src="./img/javaImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/htmlImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/mongoImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/cssImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/java.png" alt="photo" class="flags" id="">
+                        <img src="./img/php.png" alt="photo" class="flags" id="">
+                        <img src="./img/mySQL.png" alt="photo" class="flags" id="">
+                    </div>
+                    <div>
+                        <h4 class="tituloSkill skillsTwo diezseis">Frameworks y Librerias</h4>
+                        <img src="./img/boostrapImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/reactImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/githubImg.png" alt="photo" class="flags" id="">
+                        <img src="./img/leon.jpg" alt="photo" class="flags" id="">
+                        <img src="./img/chat gpt.jpg" alt="photo" class="flags" id="">
+                        <img src="./img/photoshop.jpg" alt="photo" class="flags" id="">
+                        <img src="./img/Phaser.png" alt="photo" class="flags" id="">
+                        <img src="./img/AWS.jpg" alt="photo" class="flags" id="">
+                    </div>
+                    <div>
+                        <h4 class="tituloSkill skillsThree diezsiete">Idiomas</h4>
+                        <img src="./img/flagSpain.png" alt="photo" class="flags" id="flagSpain" title="Nativo">
+                        <img src="./img/flagBrasil.png" alt="photo" class="flags" id="flagBrasil" title="C2">
+                        <img src="./img/flagUsa.png" alt="photo" class="flags" id="flagUsa" title="C2">
+                        <img src="./img/flagGermany.png" alt="photo" class="flags" id="flagGermany" title="A2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container"> 
+            <div class="col-lg-12">
+                <h1 class="text-center tituloPortfolio diezocho">Portafolio</h1>
+            </div>
+            <div class="contenedor ">
+                <div class="cardPortfolio col-lg-6">
+                    <div class="imgBox">
+                        <img src="./img/calculatorPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio dieznueve">Calculadora</h3>
+                        </div>
+                        <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="https://garitadevs.github.io/Calculator/" target="_blank"><i class="fa fa-external-link iconPortfolio" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="https://github.com/GaritaDevs/Calculator" target="_blank"><i class="fa fa-github iconPortfolio" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cardPortfolio ">
+                    <div class="imgBox">
+                        <img src="./img/carPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio veinte">Video juego (No lista)</h3>
+                        </div>
+                        <!-- <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="#" class="iconPortfolio"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="#" class="iconPortfolio"><i class="fa fa-github " aria-hidden="true"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="cardPortfolio">
+                    <div class="imgBox">
+                        <img src="./img/farmaciaPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio veintiuno">Farmacia</h3>
+                        </div>
+                        <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-external-link iconPortfolio" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="https://github.com/GaritaDevs/FarmaciaGEX" target="_blank"> <i class="fa fa-github iconPortfolio" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="cardPortfolio">
+                    <div class="imgBox">
+                        <img src="./img/astronautPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio veintidos">Astronauta React (No lista)</h3>
+                        </div>
+                        <!-- <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-external-link iconPortfolio" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-github iconPortfolio" aria-hidden="true"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="cardPortfolio">
+                    <div class="imgBox">
+                        <img src="./img/cubicPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio veintitres">3D Animación (No lista)</h3>
+                        </div>
+                        <!-- <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-external-link iconPortfolio" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-github iconPortfolio" aria-hidden="true"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+                <div class="cardPortfolio">
+                    <div class="imgBox">
+                        <img src="./img/clothingPortfolio.jpg" alt="farmacia" class="imgPortfolio">
+                    </div>
+                    <div class="contentPortfolio"> 
+                        <div class="contentBox">
+                            <h3 class="textPortfolio veinticuatro">Tienda (No lista)</h3>
+                        </div>
+                        <!-- <ul class="sciPortfolio">
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-external-link iconPortfolio" aria-hidden="true"></i></a></li>
+                            <li class="listPortfolio"><a href="#"><i class="fa fa-github iconPortfolio" aria-hidden="true"></i></a></li>
+                        </ul> -->
+                    </div>
+                </div>
+            </div>
+    </div>
+    </section>
+
+    <section class="sectionForm d-flex justify-content-center align-items-center py-4" >
+        <div class="containerForm contact">
+            <h2 class="text-center tituloContacto sesentacinco"></h2>
+            <div>
+                <h1 class="text-center tituloContact veinticinto" id="contact">Contacto</h1>
+                <p class="text-center textContact veintiseis">¿Tienes alguna pregunta o quieres que <text class="workNaranja veintisiete">trabajemos</text> juntos?</p>
+            </div>
+            <form id="form">
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="nombreTxt" type="text" name="name" required="required" class="nombre">
+                            <span class="text veintiocho">Nombre</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox">
+                            <input id="emailTxt" type="text" name="email" required="required">
+                            <span class="text veintinueve">Email</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <div class="inputBox textarea">
+                            <textarea id="mensajeTxt" name="message" required="required"></textarea>
+                            <span class="text treinta">Mensaje</span>
+                            <span class="line"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="formRow">
+                    <div class="colForm">
+                        <p id="mensajeAlert"></p>
+                        <input id="btnSendd" type="button" value="Enviar">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+    <section id="sectionRedes" class="socialMedia"> 
+        <ul class="sci">
+            <li data-text="Linkedin" data-color="#00a8ff" class="liSocial">
+                <a href="https://www.linkedin.com/in/garita-esteban-95591025a/" target="_blank"  class="linkedin" >
+                    <i class="fa fa-linkedin fax" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Whatsapp" data-color="#44bd32" class="liSocial">
+                <a href="https://api.whatsapp.com/send?phone=84504653" target="_blank" class="whatsapp">
+                    <i class="fa fa-whatsapp fax" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Github" data-color="#3c40c6" class="liSocial">
+                <a href="https://github.com/GaritaDevs" target="_blank" class="github">
+                    <i class="fa fa-github fax" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li data-text="Gmail" data-color="#EA2027" class="liSocial gmailT">
+                <a href="mailto:garitadevesteban@gmail.com" target="_blank" class="gmail">
+                    <i class="fa fa-envelope fax" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+        
+    </section>
+
+    
+
+    <!-- BOOSTRAP -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+
+    
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script src="./js/vanilla-tilt.min.js"></script>
+    <!-- programacion JS Propia -->
+    <script src="./js/index.js"></script>
+    <script src="./js/idioma.js"></script>
+    <script src="./js/formes.js"></script>
+
+
+    <!-- libreria desplegables SWALFIRE -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+</html>

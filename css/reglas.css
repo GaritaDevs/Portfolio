@@ -1,0 +1,310 @@
+@media (min-width: 400px) and (max-width: 545px) {
+    
+    .yoSoy{
+        font-size: 2.0em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    .botonCV {
+        position: relative;
+        top: 10px;
+    }
+    
+    .contenedorSkills{ 
+        margin-top: 0;
+    }
+
+    .contenidoHome{
+        padding: 0;
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .textHome {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+    #about {
+        height: 120vh;
+    }
+
+    .tituloSkills{
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .txtAbout{
+        width: 50%;
+        font-size: 11px;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .botonCV{
+        width: 100%;
+         font-size: 17px;
+         font-weight: 250;
+         color: #444;
+         font-family: popins, sans-serif;
+     }
+}
+
+@media (max-width: 575px) {
+    .logoPagina{
+        display: none;
+    }
+
+    .contenidoHome{
+        top: 30%;
+        left: 7%;
+        position: relative;
+        max-width: 450px;
+        z-index: 10;
+    }
+
+    .hi{
+        font-size: 2em;
+        color: #333;
+        font-weight: 200;
+        transition: 0.5s;
+    }
+    
+    .yoSoy{
+        font-size: 3.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+    
+    #spanHome{
+        color: orange
+    }
+
+    .animation{
+        position: relative;
+        top: 23%;
+        left: 47%;
+        width: 250px;
+        height: 250px;
+    }
+    
+    .txtAbout{
+        width: 50%;
+        font-size: 14px;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .tituloAbout{
+            font-size: 3.5em;
+    }
+
+    .tituloSkills{
+        font-size: 3.5em;
+    }
+
+    .tituloPortfolio{
+        font-size: 3.5em;
+    }
+
+    .botonCV{
+       width: 100%;
+        font-size: 17px;
+        font-weight: 250;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .gmailT{
+        display: none;
+    }
+
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 700px) {
+    .logoPagina{
+        display: none;
+    }
+
+    .flechaArriba {
+        display: none;
+    }
+
+    .sectionForm {
+        display: none;
+    }
+
+    .yoSoy{
+        font-size: 3.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    #about {
+        height: 120vh;
+    }
+
+    .txtAbout{
+        width: 50%;
+        font-size: 14px;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .botonCV{
+        width: 100%;
+         font-size: 17px;
+         font-weight: 250;
+         color: #444;
+         font-family: popins, sans-serif;
+     }
+
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    .animation{
+        position: relative;
+        top: 23%;
+        left: 60%;
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+
+@media (min-width: 700px) and (max-width: 767px) {
+    .logoPagina{
+        display: none;
+    }
+
+    .yoSoy{
+        font-size: 3.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    #about {
+        height: 130vh;
+    }
+
+
+    .txtAbout{
+        width: 50%;
+        font-size: 16px;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .botonCV{
+        width: 100%;
+         font-size: 17px;
+         font-weight: 250;
+         color: #444;
+         font-family: popins, sans-serif;
+     }
+
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    .animation{
+        position: relative;
+        top: 23%;
+        left: 75%;
+        width: 250px;
+        height: 250px;
+    }
+    
+}
+    
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .logoPagina{
+        display: none;
+    }
+
+    .yoSoy{
+        font-size: 4.5em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    .textHome{
+        font-size: 1em;
+        color: #666;
+        margin: 10px 0;
+        transition: 0.5s;
+        font-family: Popins, sans-serif;
+    }
+
+    #about {
+        height: 130vh;
+    }
+
+    .txtAbout{
+        width: 50%;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .botonCV{
+        width: 100%;
+         font-size: 17px;
+         font-weight: 250;
+         color: #444;
+         font-family: popins, sans-serif;
+     }
+    .animation{
+        position: relative;
+        top: 10%;
+        left: 70%;
+        width: 350px;
+        height: 350px;
+    }
+    
+    
+
+  
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .animation{
+        position: relative;
+        top: 25%;
+        left: 7%;
+        width: 330px;
+        height: 330px;
+    }
+    
+}
+@media (min-width: 1200px) {
+}
