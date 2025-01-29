@@ -1,3 +1,64 @@
+@media (min-width: 300px) and (max-width: 400px) {
+
+    
+    .yoSoy{
+        font-size: 2.0em;
+        color: #333;
+        font-weight: 700;
+        transition: 0.5s;
+    }
+
+    .botonCV {
+        position: relative;
+        top: 10px;
+    }
+    
+    .contenedorSkills{ 
+        margin-top: 0;
+    }
+
+    .contenidoHome{
+        padding: 0;
+        font-size: 15px;
+        width: 90%;
+    }
+
+    .textHome {
+        padding: 0;
+        font-size: 15px;
+    }
+
+    .animation{
+        display: none;
+    }
+
+    #about {
+        height: 120vh;
+    }
+
+    .tituloSkills{
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+
+
+    .txtAbout{
+        width: 50%;
+        font-size: 11px;
+        font-weight: 300;
+        color: #444;
+        font-family: popins, sans-serif;
+    }
+
+    .botonCV{
+        width: 100%;
+         font-size: 17px;
+         font-weight: 250;
+         color: #444;
+         font-family: popins, sans-serif;
+     }
+}
+
 @media (min-width: 400px) and (max-width: 545px) {
     
     .yoSoy{
@@ -36,9 +97,10 @@
     }
 
     .tituloSkills{
-        padding-top: 100px;
+        padding-top: 60px;
         padding-bottom: 70px;
     }
+
 
     .txtAbout{
         width: 50%;
@@ -265,9 +327,12 @@
     }
 
     #about {
-        height: 130vh;
+        height: 80vh;
     }
 
+    #skills {
+        height: 100%;
+    }
     .txtAbout{
         width: 50%;
         font-weight: 300;
